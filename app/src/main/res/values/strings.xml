@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Bangkit Academy X FC Barcelona</string>
+    <string name="player_name">Player Name</string>
+    <string name="player_desc">Player Description</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="place_of_birth">Place of Birth</string>
+    <string name="place">Place</string>
+    <string name="height">Height</string>
+    <string name="height_cm">Height cm</string>
+    <string name="weight">Weight</string>
+    <string name="weight_kg">Weight kg</string>
+    <string name="description">Description</string>
+    <string name="player_position">Player Position</string>
+    <string name="position">Position</string>
+    <string name="nationality">Nationality</string>
+    <string name="player_nationality">Player Nationality</string>
+    <string name="player_number">Player Number</string>
+    <string name="number">Number</string>
+    <string name="name">Rafi Putra Darmawan</string>
+    <string name="email">rafput03@gmail.com</string>
+    <string name="about_me">ABOUT ME</string>
+    <string name="detailed_info">DETAILED INFO</string>
+    <string name="fc_barcelona_player">FC BARCELONA PLAYER</string>
+    <string name="dmy">DD/MM/YYYY</string>
+
+    <string-array name="data_name">
+        <item>Ter Stegen</item>
+        <item>Jules Kounde</item>
+        <item>Ronald Araujo</item>
+        <item>Pau Cubarsi</item>
+        <item>Alejandro Balde</item>
+        <item>Frenkie De Jong</item>
+        <item>Gavi</item>
+        <item>Pedri</item>
+        <item>Raphinha</item>
+        <item>Lamine Yamal</item>
+        <item>Robert Lewandowski</item>
+    </string-array>
+
+    <string-array name="data_nationality">
+        <item>Germany</item>
+        <item>France</item>
+        <item>Uruguay</item>
+        <item>Spain</item>
+        <item>Spain</item>
+        <item>Netherland</item>
+        <item>Spain</item>
+        <item>Spain</item>
+        <item>Brazil</item>
+        <item>Spain</item>
+        <item>Poland</item>
+    </string-array>
+
+    <string-array name="data_position">
+        <item>Goalkeeper</item>
+        <item>Defender</item>
+        <item>Defender</item>
+        <item>Defender</item>
+        <item>Defender</item>
+        <item>Midfielder</item>
+        <item>Midfielder</item>
+        <item>Midfielder</item>
+        <item>Forward</item>
+        <item>Forward</item>
+        <item>Forward</item>
+    </string-array>
+
+    <integer-array name="data_number">
+        <item>1</item>
+        <item>23</item>
+        <item>4</item>
+        <item>2</item>
+        <item>3</item>
+        <item>21</item>
+        <item>6</item>
+        <item>8</item>
+        <item>11</item>
+        <item>19</item>
+        <item>9</item>
+    </integer-array>
+
+    <string-array name="data_date">
+        <item>30-04-1992</item>
+        <item>12-11-1998</item>
+        <item>07–03-1999</item>
+        <item>22-01-2007</item>
+        <item>18-10-2003</item>
+        <item>12-05-1997</item>
+        <item>05-08-2004</item>
+        <item>25-11-2002</item>
+        <item>14-12-1996</item>
+        <item>13-07-2007</item>
+        <item>21-08-1988</item>
+    </string-array>
+
+    <string-array name="data_place">
+        <item>Mönchengladbach</item>
+        <item>Paris</item>
+        <item>Rivera</item>
+        <item>Bescanó</item>
+        <item>Barcelona</item>
+        <item>Arkel</item>
+        <item>Los Palacios y Villafranca</item>
+        <item>Tenerife</item>
+        <item>Porto Alegre</item>
+        <item>Esplugues de Llobregat</item>
+        <item>Warszawa</item>
+    </string-array>
+
+    <string-array name="data_height">
+        <item>187 cm</item>
+        <item>180 cm</item>
+        <item>188 cm</item>
+        <item>184 cm</item>
+        <item>175 cm</item>
+        <item>181 cm</item>
+        <item>173 cm</item>
+        <item>174 cm</item>
+        <item>176 cm</item>
+        <item>180 cm</item>
+        <item>185 cm</item>
+    </string-array>
+
+    <string-array name="data_weight">
+        <item>85 kg</item>
+        <item>75 kg</item>
+        <item>79 kg</item>
+        <item>75 kg</item>
+        <item>69 kg</item>
+        <item>74 kg</item>
+        <item>70 kg</item>
+        <item>60 kg</item>
+        <item>68 kg</item>
+        <item>72 kg</item>
+        <item>81 kg</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>Marc-André ter Stegen (born 30 April 1992) is a German professional footballer who plays as a goalkeeper for La Liga club Barcelona, whom he captains, and the Germany national team. Known for his reflexes, passing, and ball-playing ability, he is considered one of the best goalkeepers in world football.\nAfter four seasons in the Bundesliga with Borussia Mönchengladbach, making 108 league appearances, he joined Barcelona for €12 million in 2014. He won the treble in his first season in Spain, playing for Barcelona in Copa del Rey and UEFA Champions League.\nTer Stegen represented Germany at several youth levels and made his senior international debut in 2012. He was part of the German squads that reached the semi-finals of UEFA Euro 2016 and won the 2017 FIFA Confederations Cup, and was also a member of the German side that took part at the 2018 FIFA World Cup, 2022 FIFA World Cup and UEFA Euro 2024.</item>
+        <item>Jules Olivier Koundé (born 12 November 1998) is a French professional footballer who plays as a right-back or centre-back for La Liga club Barcelona and the France national team.\nOn 29 July 2022, Barcelona announced an agreement with Sevilla for the transfer of Koundé. Koundé missed Barcelona first match of the La Liga season against Rayo Vallecano as the club could not register him as they were over the league salary cap limit. He also missed Barcelona second league match against Real Sociedad on 21 August for the same reason. Kounde was registered with La Liga on 26 August and made his official debut for the club two days later in a 4–0 win over Real Valladolid at the Camp Nou.</item>
+        <item>Ronald Federico Araújo da Silva (born 7 March 1999) is a Uruguayan professional footballer who plays as a defender for La Liga club Barcelona and the Uruguay national team. Primarily a centre-back, he also plays as a right-back on occasion.\nOn 29 August 2018, Araújo signed a five-year contract with FC Barcelona for a fee of €1.7 million, plus €3.5 million in variables; he was initially assigned to the reserves in Segunda División B. He made his first team – and La Liga – debut on 6 October of the following year, coming off the bench to replace Jean-Clair Todibo in the 73rd minute of a 4–0 home win against Sevilla; however, he was sent off in the 86th minute for fouling Javier Hernández.\nFor the 2020–21 season, Araújo was promoted to the main squad, being handed the number 4 jersey, which was previously worn by Ivan Rakitić. On 19 December 2020, he scored his first La Liga goal for Barcelona in a 2–2 home draw against Valencia.</item>
+        <item>Pau Cubarsí Paredes (born 22 January 2007) is a Spanish professional footballer from Catalonia who plays as a centre-back for La Liga club Barcelona and the Spain national team.\nCubarsí began his career with Girona, before the move to Barcelona in 2018. Having progressed through the academy, he became the third-youngest Barcelona player to debut in the UEFA Youth League, behind Lamine Yamal and Ilaix Moriba, when he started in an eventual 1–1 draw with Czech side Viktoria Plzeň.\nIn April 2023, he trained with the first team for the first time, having been called up by manager Xavi. He signed his first professional contract with the club three months later, on 8 July. He was included in Barcelona pre-season squad ahead of the 2023–24 season.\nOn 18 January 2024, Cubarsí made his first team debut against Unionistas de Salamanca in the Copa del Rey, being subbed on in the 46th minute. His first start came in the next match against Real Betis in La Liga, a day before his 17th birthday. On 10 April, Cubarsí has become the youngest defender to start in the quarter finals of the Champions League aged only 17 years and 79 days breaking the previous record held by CSKA Moscow Georgi Shchennikov.</item>
+        <item>Alejandro Balde Martínez (born 18 October 2003) is a Spanish professional footballer who plays as a left-back for La Liga club Barcelona and the Spain national team.\nBorn in Barcelona, Catalonia, to a Bissau-Guinean father and a Dominican mother, Balde joined Barcelona in 2011 at the age of eight after coming up through ranks at Espanyol. In July 2021, he signed a contract renewal with Barcelona until 2024 with a release clause of 500 million euros.\nBalde impressed during pre-season in the summer 2021, and began the new campaign as Jordi Alba primary back-up at the Camp Nou. He sat on the bench for the opening match against Real Sociedad and the next game against Athletic Bilbao. On 14 September 2021, he played his first official match for Barcelona first team replacing Alba in the 74th minute of a 3–0 loss to Bayern Munich in the group stage of the UEFA Champions League.</item>
+        <item>Frenkie de Jong (born 12 May 1997) is a Dutch professional footballer who plays as a central midfielder for La Liga club Barcelona and the Netherlands national team. Considered as one of the best midfielders in the world, de Jong is known for his vision, passing, dribbling, attacking prowess and technique.\nDe Jong began his professional career at Willem II in 2015. He transferred to Ajax for a fee worth €1 a year later. The fee was symbolic and offset by a sell-on clause. At Ajax he established himself as one of the best young midfielders in Europe, after winning a domestic double and reaching the Champions League semi-finals. De Jong won the Eredivisie and KNVB Cup, was Eredivisie player of the season, and was an instrumental part of Ajax first UEFA Champions League semi-final appearance in 22 years, in a breakthrough 2018–19 season.\nDuring his breakthrough season, De Jong agreed to sign for Barcelona in January 2019, leading him to be signed for the club in July, for a fee worth €75 million. De Jong was selected to the 2019 FIFA FIFPro World11 and was one of three Dutch players to feature in it for the first time in five years.</item>
+        <item>Pablo Martín Páez Gavira (born 5 August 2004), known as Gavi, is a Spanish professional footballer who plays as a central midfielder for La Liga club Barcelona and the Spain national team.\nIn September 2020, he signed his first professional contract with the Catalan club, and was promoted directly from the under-16 team to the under-19 team. He made his debut for Barcelona B on 21 February 2021, in the 6–0 home routing of Le Hospitalet, coming on as a substitute for Nico González in the 77th minute. He made his first start for Barça B the following 14 March in a 1–0 derby win against Espanyol B at the Ciutat Esportiva Dani Jarque.\nHaving featured twice for Barcelona B in the 2020–21 season, Gavi was promoted to the senior squad for pre-season friendlies with the first team ahead of the start of the new season. After good performances in wins against Gimnàstic de Tarragona and Girona, Gavi was reported to have pushed ahead of Riqui Puig in manager Ronald Koeman squad selection. He continued this good run of form in a 3–0 win against German opposition VfB Stuttgart, earning comparisons with Barcelona legend Xavi.\nOn 29 August 2021, he played his first official match for Barcelona first team in the 2–1 La Liga win over Getafe, replacing Sergi Roberto in the 73rd minute. On 18 December, he scored his first goal for the club and provided an assist in the 3–2 home win over Elche.</item>
+        <item>Pedro González López (born 25 November 2002), more commonly known as Pedri, is a Spanish professional footballer who plays as a central midfielder for La Liga club Barcelona and the Spain national team.\nOn 2 September 2019, Barcelona reached an agreement with Las Palmas for the transfer of Pedri, effective as of the following 1 July 2020. The player agreed to a two-year contract with the Catalan club, who paid €5 million for the deal, which would increase as he fulfilled various clauses in his contract. Assigned to the main squad for the 2020–21 season and with the number 16 shirt, Pedri made his debut on 27 September, replacing Philippe Coutinho in a 4–0 home win against Villarreal in La Liga. He received his first start on 17 October in a 0–1 away loss against Getafe. On 20 October, Pedri scored his first goal for the club on his UEFA Champions League debut, in a 5–1 win over Ferencváros in the group stage, after coming on as a substitute in the 61st minute for Ansu Fati. On 7 November, in a 5–2 home win over Real Betis, he scored his first goal in La Liga after an assist from Sergi Roberto.</item>
+        <item>Raphael Dias Belloli (born 14 December 1996), known as Raphinha, is a Brazilian professional footballer who plays as a winger for La Liga club Barcelona and the Brazil national team.\nRaphinha began his footballing journey with Avaí, but left for Portuguese side Vitória Guimarães in 2016, where he made his professional début. After impressive performances, he signed for Sporting CP, where he spent a year before signing for French club Rennes. After a year he was on the move again, signing for Leeds United before moving to Spanish club Barcelona.\nOn 15 July 2022, Raphinha signed for La Liga club Barcelona on a five-year contract for a reported initial fee of £50m, potentially rising to £55 million in add-ons. On 13 August, he made his debut for the club in 0–0 draw against Rayo Vallecano in the league. On 3 September, he scored his first Barcelona goal in a 3–0 victory over Sevilla at the Ramón Sánchez Pizjuán Stadium\nHaving made his debut in October 2021, Raphinha is a Brazilian international. His first two goals for the national team came in a win over Uruguay later that month. He was selected for Brazil squad at the 2022 FIFA World Cup and the 2024 Copa América.</item>
+        <item>Lamine Yamal Nasraoui Ebana (born 13 July 2007) is a Spanish professional footballer who plays as a right winger for La Liga club Barcelona and the Spain national team. Known for his pace, dribbling, passing, crossing ability, physicality, defensive capability, and ability to strike powerful long-range shots, He is widely regarded as one of the best young footballers in the world.\nIn the first match of the 2024–25 La Liga season on 18 August 2024, Yamal assisted Robert Lewandowski to help Barcelona equalize against Valencia before Lewandowski converted a penalty in the second half to help the match end 2–1. In the following match against Athletic Bilbao on 24 August, Yamal scored his first goal of the season in another 2–1 victory. On 19 September, Yamal scored his first UEFA Champions League goal, netting the equalizer in their 2–1 loss to Monaco, during the inaugural matchweek of the newly formatted Champions League league phase; in the process, he became the second youngest scorer in Champions League history at 17 years and 68 days, behind teammate Ansu Fati, who scored at 17 years and 40 days on 20 October 2020.</item>
+        <item>Robert Lewandowski (born 21 August 1988) is a Polish professional footballer who plays as a striker for La Liga club Barcelona and captains the Poland national team. He is regarded as one of the best players of his generation and as one of the best strikers of all time. He is one of the most successful players in Bundesliga and Bayern Munich history. He has scored over 600 senior career goals for club and country.\nAt Bayern Munich, Lewandowski established himself as one of the best players of his generation. On 16 July 2022, Barcelona confirmed they had reached an agreement with Bayern Munich for Lewandowski transfer. Three days later, Lewandowski signed a four-year contract for a fee of €45 million, potentially rising to €50 million with add-ons. The contract included a release clause set at €500 million. Lewandowski became the most expensive Polish player in history and Bayern Munich most expensive sale of all time. Lewandowski was formally unveiled in front of 50,000 fans on 5 August at the Camp Nou, and was handed the number 9 shirt, previously worn by Memphis Depay, and was officially registered on 12 August, amid speculation that the club could not register him as they were over the league salary cap limit, due to their financial difficulties.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/terstegen</item>
+        <item>@drawable/kounde</item>
+        <item>@drawable/araujo</item>
+        <item>@drawable/cubarsi</item>
+        <item>@drawable/balde</item>
+        <item>@drawable/dejong</item>
+        <item>@drawable/gavi</item>
+        <item>@drawable/pedri</item>
+        <item>@drawable/raphinha</item>
+        <item>@drawable/lamine</item>
+        <item>@drawable/lewandowski</item>
+    </integer-array>
+</resources>

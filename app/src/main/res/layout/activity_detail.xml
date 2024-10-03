@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:background="#C2185B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#004D98">
+
+                <ImageButton
+                    android:id="@+id/btn_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_back"
+                    app:tint="@color/white" />
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:fontFamily="@font/blaugrana"
+                    android:text="@string/detailed_info"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_person"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#004D98"/>
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            style="@style/TextContent.TitleMedium"
+            android:layout_gravity="center"
+            android:text="@string/player_name"
+            android:textSize="24sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_weight="1"
+                    android:text="@string/nationality" />
+
+                <TextView
+                    android:id="@+id/tv_nationality"
+                    style="@style/TextContent.BodyMedium"
+                    android:layout_weight="1"
+                    android:text="@string/player_nationality" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_weight="1"
+                    android:text="@string/position" />
+
+                <TextView
+                    android:id="@+id/tv_position"
+                    style="@style/TextContent.BodyMedium"
+                    android:layout_weight="1"
+                    android:text="@string/player_position" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_weight="1"
+                    android:text="@string/number" />
+
+                <TextView
+                    android:id="@+id/tv_number"
+                    style="@style/TextContent.BodyMedium"
+                    android:layout_weight="1"
+                    android:text="@string/player_number" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_weight="1"
+                    android:text="@string/date_of_birth" />
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    style="@style/TextContent.BodyMedium"
+                    android:layout_weight="1"
+                    android:text="@string/dmy" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_weight="1"
+                    android:text="@string/place_of_birth" />
+
+                <TextView
+                    android:id="@+id/tv_place"
+                    style="@style/TextContent.BodyMedium"
+                    android:layout_weight="1"
+                    android:text="@string/place" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_weight="1"
+                    android:text="@string/height" />
+
+                <TextView
+                    android:id="@+id/tv_height"
+                    style="@style/TextContent.BodyMedium"
+                    android:layout_weight="1"
+                    android:text="@string/height_cm" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_weight="1"
+                    android:text="@string/weight" />
+
+                <TextView
+                    android:id="@+id/tv_weight"
+                    style="@style/TextContent.BodyMedium"
+                    android:layout_weight="1"
+                    android:text="@string/weight_kg" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/TextContent.TitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/description" />
+
+        <TextView
+            android:id="@+id/tv_item_desc"
+            style="@style/TextContent.BodyMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:justificationMode="inter_word"
+            android:text="@string/player_desc" />
+
+        <ImageButton
+            android:id="@+id/action_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_share"
+            app:tint="@color/white"
+            android:background="@null"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+
+</ScrollView>
