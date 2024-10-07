@@ -5,8 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailActivity"
-    android:background="#C2185B">
+    android:background="#C2185B"
+    tools:context=".DetailActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,7 +47,6 @@
         </com.google.android.material.appbar.AppBarLayout>
 
 
-
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_item_photo"
             android:layout_width="200dp"
@@ -55,15 +54,15 @@
             android:layout_gravity="center"
             android:layout_margin="16dp"
             android:src="@drawable/ic_person"
-            app:civ_border_width="2dp"
-            app:civ_border_color="#004D98"/>
+            app:civ_border_color="#004D98"
+            app:civ_border_width="2dp" />
 
         <TextView
             android:id="@+id/tv_item_name"
             style="@style/TextContent.TitleMedium"
             android:layout_gravity="center"
             android:text="@string/player_name"
-            android:textSize="24sp"/>
+            android:textSize="24sp" />
 
         <TableLayout
             android:layout_width="match_parent"
@@ -191,12 +190,34 @@
             </TableRow>
         </TableLayout>
 
-        <TextView
-            style="@style/TextContent.TitleMedium"
-            android:layout_width="wrap_content"
+        <TableLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:text="@string/description" />
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TextContent.TitleMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:text="@string/description" />
+
+                <ImageButton
+                    android:id="@+id/action_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="24dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_share"
+                    app:tint="@color/white" />
+            </TableRow>
+        </TableLayout>
+
 
         <TextView
             android:id="@+id/tv_item_desc"
@@ -210,16 +231,7 @@
             android:justificationMode="inter_word"
             android:text="@string/player_desc" />
 
-        <ImageButton
-            android:id="@+id/action_share"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:src="@drawable/ic_share"
-            app:tint="@color/white"
-            android:background="@null"
-            android:layout_marginEnd="24dp"
-            android:layout_marginBottom="16dp"/>
+
     </LinearLayout>
 
 </ScrollView>
